@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Streamlit secrets (NUNCA commitar chaves de API!)
+.streamlit/secrets.toml
+
+# Ambiente virtual local (já está no .gitignore padrão, mas é bom reforçar a exclusão)
+.venv/
